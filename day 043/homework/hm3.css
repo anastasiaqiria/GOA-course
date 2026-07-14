@@ -1,9 +1,27 @@
 table *,table{
-    color: orange;
+    color: black;
     border: 1px solid ;
     border-collapse: collapse;
+    background-color: white;
 }
 
-tr:nth-child(2n+1){
-    
+th, td{
+    border: 1px solid whitesmoke;
+    padding: 12px;
+    text-align: left;
+}
+
+
+tr:nth-child(2n){
+    color: orange;
+}
+
+th{
+    background-color: rgb(255, 213, 136);
+    color: orange;
+}
+
+.abc{
+    background-color: orange;
+    font-weight: bold;
 }
