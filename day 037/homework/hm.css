@@ -1,0 +1,9 @@
+.parent {
+  width: 400px;
+  background-color: rebeccapurple;
+}
+
+.child {
+  width: 50%;  
+  background-color: yellowgreen;
+}

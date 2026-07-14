@@ -1,0 +1,43 @@
+<!-- 1) ახსენით რა არის css წესი, დეკლარაცია, სელექტორი, კუთვნილება და მნიშვნელობა -->
+
+<!-- დეკლარაცია არის კუთვნილების და მნიშვნელობის გაერთიანება -->
+<!-- სელექტორი არის რაზეც იმოქმედებს სტილის შეცვლა მაგალითად თუ h1-ს მივუთითებთ შეიცვლება heading-ი ხოლო თუ p-ს მხოლოდ პარაგრაფი -->
+<!-- კუთვნილება არის რაც იცვლება მაგ: ფერი, ზომა, ფონი და ა.შ -->
+<!-- მნიშვნელობა არის თუ რა იცვლება დეკლარაციის ბლოკში მაგ: color = და თუ მივუთითებთ 'Red'-ს ეს გამოდის მნიშვნელობა -->
+<!-- css ის წესი არის ის ბლოკი რაც განსაზღვრავს სტილს ის შედგება: სელექტორი და დეკლარაციისან -->
+
+
+<!-- 2) დეტალურად ახსენით როგორ მუშაობს css ში მემკვიდრეობა -->
+
+
+მემკვიდრეობა CSS-ში ნიშნავს რომ ერთ ელემენტზე დაყენებული CSS-ის თვისებები ავტომატურად გადადის მის child ანუ მის შვილ ელემენტებზე 
+მაგ:
+<div>
+     <p>textt</p>  და ეს რომ  external css-ით გავსტილოთ, div-სელექტორში გაწერილ მნიშვნელობაში p-თეგიც ასევე გახდება ის ფერი რასაც მივუთითებთ 
+</div>
+
+
+<!-- 3) შთამომავლობის სელექტორის საშვალებით გასტილეთ h1 ში არსებული b თეგები -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consequuntur.</b><br>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores.</b><br>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b><br>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing.</b><br>
+        <b>Lorem ipsum dolor sit amet consectetur.</b><br>
+        <b>Lorem ipsum dolor sit amet.</b><br>
+        <b>Lorem ipsum dolor sit.</b><br>
+        <b>Lorem, ipsum dolor.</b><br>
+    </h1>
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!-- 1) ახსენით რა არის inline element და block level element, შემდეგ 1 inline element და block level element ს გაუწერეთ ბორდერი -->
+
+<!-- inline element - იკავებს იმენ ადგილს რამდენიც სჭირდეგბა -->
+<!-- block level element - იკავებს მთლიან ხაზს -->
+
+<p style="border: solid blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi officia voluptates.</p>
+<b style="border: solid pink;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere amet tenetur dolorem.</b><br><br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border: solid;">
+        <tr>
+            <th style="border: solid;" rowspan="2">Row</th>
+            <th style="border: solid;" colspan="3">მონაცემი</th>
+        </tr>
+        <tr>
+            <td style="border: solid;">ზუკა</td>
+            <td style="border: solid;">17</td>
+            <td style="border: solid;">123</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border: solid;">
+        <tr>
+            <th style="border: solid;">Level1</th>
+            <th style="border: solid;">Level2</th>
+            <th style="border: solid;">Level3</th>
+            <th style="border: solid;">Info</th>
+            <th style="border: solid;">Name</th>
+        </tr>
+        <tr>
+            <td style="border: solid;" rowspan="5">System</td>
+            <td style="border: solid;" rowspan="3">System Apps</td>
+            <td style="border: solid;" rowspan="2">SystemEnv</td>
+            <td style="border: solid;">App test</td>
+            <td style="border: solid;">bar</td>
+        </tr>
+        <tr>
+            <td style="border: solid;">App memory</td>
+            <td style="border: solid;">foo</td>
+        </tr>
+        <tr>
+            <td style="border: solid;">SystemEnv2</td>
+            <td style="border: solid;">App Test</td>
+            <td style="border: solid;">foo</td>
+        </tr>
+        <tr>
+            <td style="border: solid;" rowspan="2">system memory</td>
+            <td style="border: solid;" rowspan="2">Memory Test</td>
+            <td style="border: solid;">Memory func</td>
+            <td style="border: solid;">foo</td>
+        </tr>
+
+        <tr>
+            <td style="border: solid;">Apes Test</td>
+            <td style="border: solid;">foo</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<!-- colspan- აერთიანებს სვეტებს
+rowspan- აერთიანებს სტრიქონებს -->
+
+
+

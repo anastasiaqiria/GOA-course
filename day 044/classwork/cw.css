@@ -1,0 +1,14 @@
+h2{
+    color: lightseagreen;
+}
+
+button{
+    color: white ;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    background-color: lightseagreen;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+}
