@@ -1,0 +1,13 @@
+table *, table{
+    color: black;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+tr:nth-child(1){
+    background-color: green;
+}
+
+

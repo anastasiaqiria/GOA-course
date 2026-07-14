@@ -1,0 +1,10 @@
+table *,table{
+    color: green;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n){
+    background-color: rgb(195, 195, 195);
+    
+}

@@ -1,0 +1,9 @@
+table *,table{
+    color: orange;
+    border: 1px solid ;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n+1){
+    
+}
