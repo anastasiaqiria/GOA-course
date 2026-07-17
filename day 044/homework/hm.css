@@ -1,0 +1,16 @@
+table *, table{
+    color: brown;
+    border: 1px solid palevioletred;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid palevioletred;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(2){
+    color: pink;
+}
+
