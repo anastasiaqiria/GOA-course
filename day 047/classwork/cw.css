@@ -1,0 +1,109 @@
+/* <!-- 1) კომენტარებით ახსენით რისი გაკეთება შეგვიძლია FLEX, JUSTIFY-CONTENT, ALIGN-ITEMS -->
+
+/* flex - გვეხმარება ელემენტების განლაგებაში. როდესაც მშობელ ელემენტს ვაძლევთ display : flex-ს მისი შვილი ელემენტები
+ხდებიან flex ელემენტები და შეგვიძლია მარტივა დაგვალაგოთ ჰორიზონტალურად ან ვერტიკალურად
+მაგ: */
+/* 
+.div{
+    display: flex;
+} */
+
+/* justify-content - აკონტროლებს ელემენტების განლაგებას მარცხნიდან მარჯვნივ ანუ ჰორიზონტალურად
+მაგ: */
+
+/* .div{
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+align-items - აკონტროლებს ელემენტების განლაგებას ვერტიკალურად
+მაგ: */
+/* 
+.div{
+    display: flex;
+    align-items: center;
+} */ 
+
+h1{
+    color: aliceblue;
+}
+
+.location{
+    color: greenyellow;
+}
+
+.bio{
+    color: rgb(145, 145, 145);
+}
+
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.card{
+    width: 380px;
+    height: 460px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.github{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid gray;
+    display: block;
+    width: 70%;
+}
+
+.mentor{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid gray;
+    display: block;
+    width: 70%;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: whitesmoke;    
+    border: 1px solid gray;
+    display: block;
+    width: 70%;
+
+}
+
+.twitter{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid gray;
+    display: block;
+    width: 70%;
+}
+
+.insta{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid gray;
+    display: block;
+    width: 70%;
+}
+
+
+.soc-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+
+}
