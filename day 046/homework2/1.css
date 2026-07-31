@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 280px;
+    height: 380px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+}
+
+img {
+    width: 230px;
+    height: 210px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+p {
+    color: grey;
+}
+
+b {
+    color: black;
+    font-size: large;
+}
+
