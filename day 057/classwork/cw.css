@@ -1,0 +1,29 @@
+/* 1) ახსენით რაში გვეხმარება: 
+background-image  background-repeat background-size background-position და დაწერეთ მგაალითი მათზე 
+
+ background-image - დახმარებით შეგვიძლია ელემენტს უკანა ფონად სურათი დავუმატოთ
+
+ background-repeat - განსაზღვრავს ელემენტები განმეორდეს თუ არა repeat ან no repeat-ის საშუალებით ან არსებობს კიდევს 
+repeat-x და repeat-y რომელიც ამეორებს ელემენტებს ჰორიზონტალურად და ვერტიკალურად 
+
+background-size - განსაზღვრავს რა ზომის უნდა იყოს ჩვენი background-ის სურათი. cover-ი სურათი მთლიანად ფარავს div-ს ხოლო contan-ი
+ატევს div-ში მაქსიმალურად დიდად. 
+
+background-position - შეუძლია განსაზღვროს სად მდებარეობს სურათი ელემენტის შიგნით, მაგ:
+center - ცენტრში
+top - ზემოთ
+left - მარცხნივ
+right - მარჯვნივ და ა.შ 
+
+
+მაგალითი (ყველაზე) */
+
+.div {
+    width: 500px;
+    height: 500px;
+
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
